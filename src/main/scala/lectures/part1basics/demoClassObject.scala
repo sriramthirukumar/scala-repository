@@ -18,7 +18,7 @@ class Car {
 }
 object demoClassObject extends App {
   println("Hello")
-  var bmw = new Car
+  var bmw = new Car ()
   bmw.extraCost = 100
   var roadTaxInObject = bmw.printTax()
   println("The Tax of bmw is: "+roadTaxInObject)
